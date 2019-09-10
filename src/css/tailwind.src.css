@@ -1,4 +1,4 @@
-@tailwind preflight;
+@tailwind base;
 @tailwind components;
 @tailwind utilities;
 @tailwind screens;
@@ -6,49 +6,49 @@
 /** Page **/ 
 
 .page-wrapper {
-    @apply min-h-screen;
+  @apply min-h-screen;
 }
 .page-content {
-    @apply flex flex-col w-full fixed pin-l pin-y;
+  @apply flex flex-col w-full fixed pin-l pin-y;
 }
 
 /** Header **/
 .header {
-    @apply flex items-center justify-between flex-wrap bg-teal-dark p-6 border-b py-2;
+  @apply flex items-center justify-between flex-wrap bg-teal-dark p-6 border-b py-2;
 }
 
 .header-links {
-    @apply text-white no-underline;
+  @apply text-blue no-underline;
 }
 
 .header-ul {
-    @apply list-reset flex flex-wrap;
+  @apply list-reset flex flex-wrap;
 }
 
 .header-title {
-    @apply text-white text-3xl;
+  @apply text-white text-3xl;
 }
 
 /** Footer **/
 
 .footer-wrapper {
-    @apply border-t py-1 bg-teal-dark;
+  @apply border-t py-2 bg-teal-orange;
 }
 
 .footer-content {
-    @apply flex justify-around text-grey items-center;
+  @apply flex justify-around text-red items-center;
 }
 
 /** Content section **/
 
 .content-wrapper {
-    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+  @apply px-4 pt-4 flex-1 overflow-y-scroll;
 }
 
 .content-text {
-    @apply text-green-darkest;
+  @apply text-green-darkest;
 }
 
 .content-lists {
-    @apply text-green-darkest leading-loose tracking-wide;
+  @apply text-green-darkest leading-loose tracking-wide;
 }
