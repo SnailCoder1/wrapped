@@ -1,0 +1,54 @@
+@tailwind preflight;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+/** Page **/ 
+
+.page-wrapper {
+    @apply min-h-screen;
+}
+.page-content {
+    @apply flex flex-col w-full fixed pin-l pin-y;
+}
+
+/** Header **/
+.header {
+    @apply flex items-center justify-between flex-wrap bg-teal-dark p-6 border-b py-2;
+}
+
+.header-links {
+    @apply text-white no-underline;
+}
+
+.header-ul {
+    @apply list-reset flex flex-wrap;
+}
+
+.header-title {
+    @apply text-white text-3xl;
+}
+
+/** Footer **/
+
+.footer-wrapper {
+    @apply border-t py-1 bg-teal-dark;
+}
+
+.footer-content {
+    @apply flex justify-around text-grey items-center;
+}
+
+/** Content section **/
+
+.content-wrapper {
+    @apply px-4 pt-4 flex-1 overflow-y-scroll;
+}
+
+.content-text {
+    @apply text-green-darkest;
+}
+
+.content-lists {
+    @apply text-green-darkest leading-loose tracking-wide;
+}

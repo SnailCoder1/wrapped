@@ -3,15 +3,20 @@ import ReactDOM from "react-dom"
 import Hello from "./Hello"
 import Header from "./Header"
 import Footer from "./Footer"
+import './css/tailwind.css'
 
 const App = () => {
-    return (
-        <div>
+  return (
+    <div className="page-wrapper">
+        <div className="page-content">
             <Header />
-            <Hello />
+            <div className="content-wrapper">
+              <Hello />
+            </div>
             <Footer />
-        </div >
-    )
+        </div>
+    </div>
+  )
 };
 
 ReactDOM.render(<App />, document.getElementById("app"))
