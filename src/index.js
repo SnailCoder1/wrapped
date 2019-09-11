@@ -7,6 +7,7 @@ import Footer from "./Footer"
 import About from "./About"
 import Projects from "./Projects"
 import "./css/tailwind.css"
+import Contact from "./Contact"
 
 const App = () => {
   return (
@@ -15,9 +16,10 @@ const App = () => {
         <Header />
           <div className="content-wrapper">
             <Switch>
-              <Route exact path="/" component={Hello}></Route>
+              {/* <Route exact path="/" component={Hello}></Route> */}
               <Route exact path="/about" component={About}></Route>
               <Route exact path="/projects" component={Projects}></Route>
+              <Route exact path="/contact" component={Contact}></Route>
             </Switch>
           </div>
         <Footer />
