@@ -22,7 +22,7 @@
 }
 
 .header-ul {
-  @apply list-reset flex flex-wrap;
+  @apply list-reset flex;
 }
 
 .header-title {

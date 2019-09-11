@@ -1,5 +1,4 @@
-import { BrowserRouter } from "react-router-dom"
-import { Switch, Route } from 'react-router-dom'
+import { BrowserRouter, Switch, Route } from "react-router-dom"
 import React from "react"
 import ReactDOM from "react-dom"
 import Hello from "./Hello"
@@ -8,9 +7,6 @@ import Footer from "./Footer"
 import About from "./About"
 import Projects from "./Projects"
 import "./css/tailwind.css"
-
-
-
 
 const App = () => {
   return (
