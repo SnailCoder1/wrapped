@@ -1,9 +1,9 @@
 import React from "react"
 import NetlifyForm from 'react-netlify-form'
 
-const Contact = () => { 
-  return (
-    <NetlifyForm name='Contact Form'>
+const Contact = () => {
+    return (
+      <NetlifyForm name='contact'  method="POST">
       {({ loading, error, success }) => (
         <div>
           {loading &&
@@ -17,18 +17,15 @@ const Contact = () => {
           }
           {!loading && !success &&
             <div>
-              <div className="contact-form-wrapper">
-                        <input className="input-field-sm" type='text' placeholder="Your name" name='name' required />
-                        <input className="input-field-sm" type='email' placeholder="Your email address" name='email' required />
-                        <textarea className="input-field" placeholder="Your message" name='message' required />
-                        <button className="button">Send</button>
-                    </div>
+              <input type='text' placeholder="Your name" name='Name' required />
+              <input type='email' placeholder="Your email address" name='email' required />
+              <textarea name='Message' required />
+              <button>Submit</button>
             </div>
           }
         </div>
       )}
     </NetlifyForm>
-  )
+    )
 }
-
 export default Contact

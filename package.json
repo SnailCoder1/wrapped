@@ -18,7 +18,8 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-netlify-form": "^2.1.5",
-    "react-router-dom": "^5.0.1"
+    "react-router-dom": "^5.0.1",
+    "react-undraw-illustrations": "^2.0.3"
   },
   "devDependencies": {
     "@babel/cli": "^7.6.0",

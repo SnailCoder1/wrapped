@@ -13,7 +13,7 @@
 
 /** Header **/
 .header {
-  @apply flex items-center justify-between flex-wrap bg-blue-darkest p-6;
+  @apply flex items-center justify-between flex-wrap bg-blue-darkest p-8;
 }
 
 .header-title {
@@ -23,7 +23,7 @@
 /** Footer **/
 
 .footer-wrapper {
-  @apply border-t px-8 py-2;
+  @apply border-t px-10 py-2;
 }
 
 .footer-content {

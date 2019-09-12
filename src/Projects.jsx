@@ -1,6 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios"
 import ProjectCard from "./ProjectCard"
+import { UndrawDesigner } from 'react-undraw-illustrations';
 class Projects extends Component {
   componentDidMount() {
     axios.get('./src/data/projects.json')
@@ -32,10 +33,22 @@ class Projects extends Component {
   }
 
   return (
-    <div>
-      <h1 className="content-text">My Projects</h1>
-        {projectsList}
-      </div>
+    <div className="content-wrapper">
+        <div className="flex mb-4">
+            <div className="w-1/4">
+                <UndrawDesigner />
+            </div>
+            <div className="w-3/4">
+                <h1>My Projects</h1>
+                <p>This is a selection of some of my projects I have been working on.</p>
+            </div>
+
+        </div>
+
+        <div className="flex flex-wrap -mx-1 lg:-mx-4">
+            {projectsList}
+        </div>
+    </div>
     )
   }
 };
