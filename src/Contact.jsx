@@ -3,7 +3,7 @@ import NetlifyForm from 'react-netlify-form'
 
 const Contact = () => {
     return (
-      <NetlifyForm name='contact'  method="POST">
+      <NetlifyForm name='contact'>
       {({ loading, error, success }) => (
         <div>
           {loading &&
