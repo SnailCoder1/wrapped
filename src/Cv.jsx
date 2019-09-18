@@ -1,29 +1,43 @@
 import React, { Component } from "react"
 import axios from "axios"
+import EducationCard from "./EducationCard"
+import WordCard from "./WorkCard"
 import { UndrawDesigner } from 'react-undraw-illustrations';
 
 
 
 class Cv extends Component {
-  componentDidMount() {
-    axios.get('./src/data/cv.json')
-    .then(response => {
-      this.setState({
-        cv: response.data
-      })
-    })
-  }
-
   constructor (){
     super();
-    this.state ={
-      cv: []
+    this.state = {
+      education: [],
+      work: []
     };
+  }
+  componentDidMount() {
+    axios.get('./src/data/education.json')
+    .then(response => {
+      this.setState({
+        education: response.data
+      })
+    })
+
+    .then(
+      axios.get('./src/data/work.json')
+      .then(response => {this.setState({
+        work: response.data 
+      })
+    })
+    )
   }
 
   render() {
-    let cv = this.state.cv
-    let cvList 
+    const education = this.state.education
+    const work = this.state.work
+    let eduCast
+    let wook
+
+    eduCast = education.map
 
     if (cv.length > 0) {
       cvList = cv.map(cv => {
