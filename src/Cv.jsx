@@ -1,7 +1,7 @@
 import React, { Component } from "react"
 import axios from "axios"
 import EducationCard from "./EducationCard"
-// import WordCard from "./WorkCard"
+import WorkCard from "./WorkCard"
 import { UndrawDesigner } from 'react-undraw-illustrations';
 
 class Cv extends Component {
@@ -13,37 +13,47 @@ class Cv extends Component {
       })
     })
 
-    // .then(
-    //   axios.get('./src/data/work.json')
-    //   .then(response => {
-    //     this.setState({
-    //     work: response.data 
-    //   })
-    // })
-    // )
+    .then(
+      axios.get('./src/data/work.json')
+      .then(response => {
+        this.setState({
+          work: response.data 
+        })
+      })
+    )
   }
 
   constructor (){
     super();
     this.state = {
       education: [],
-      // work: [],
+      work: [],
     };
   }
 
   render() {
     const education = this.state.education
-    // const work = this.state.work
+    const work = this.state.work
     let educationList 
-    // let skills
+    let  workList
 
 
     if (education.length > 0) {
       educationList = education.map(education => {
         return (
           <div key={education.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-          <EducationCard education={education} />
-      </div>
+            <EducationCard education={education} />
+          </div>
+        )
+      })
+    }
+
+    if (work.length > 0) {
+      workList = work.map(work => {
+        return (
+          <div key={work.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+            <WorkCard work={work} />
+          </div>
         )
       })
     }
@@ -59,15 +69,23 @@ class Cv extends Component {
                 <p></p>
             </div>
 
+            <div className="w-3/4">
+                <h1>Work Experience</h1>
+                <p></p>
+            </div>
+
         </div>
 
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
           {educationList}
         </div>
+
+        <div className="flex flex-wrap -mx-1 lg:-mx-4">
+          {workList}
+        </div>
     </div>
     )
   }
-
 };
 
 
