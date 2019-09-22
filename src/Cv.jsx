@@ -2,7 +2,6 @@ import React, { Component } from "react"
 import axios from "axios"
 import EducationCard from "./EducationCard"
 import WorkCard from "./WorkCard"
-import { UndrawDesigner } from 'react-undraw-illustrations';
 
 class Cv extends Component {
   componentDidMount() {
@@ -35,7 +34,7 @@ class Cv extends Component {
     const education = this.state.education
     const work = this.state.work
     let educationList 
-    let  workList
+    let workList
 
 
     if (education.length > 0) {
@@ -59,31 +58,27 @@ class Cv extends Component {
     }
 
   return (
-    <div className="content-wrapper">
-        <div className="flex mb-4">
-            <div className="w-1/4">
-                <UndrawDesigner />
-            </div>
-            <div className="w-3/4">
-                <h1>Education</h1>
-                <p></p>
-            </div>
-
-            <div className="w-3/4">
-                <h1>Work Experience</h1>
-                <p></p>
-            </div>
-
+    <>
+        <div className="flex mb-4">  
+          <div className="w-3/4">
+            <h1>Education</h1>
+          </div>
         </div>
 
-        <div className="flex flex-wrap -mx-1 lg:-mx-4">
+        <div className="">
           {educationList}
         </div>
 
-        <div className="flex flex-wrap -mx-1 lg:-mx-4">
-          {workList}
+        <div className="flex mb-4">
+          <div className="w-3/4">
+            <h1>Work Experience</h1>
+          </div>
+
+          <div className="">
+            {workList}
+          </div>
         </div>
-    </div>
+      </>
     )
   }
 };
