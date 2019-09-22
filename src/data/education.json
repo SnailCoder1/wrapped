@@ -1,31 +1,31 @@
 [
 	{
 		"id": 1,
-		"dates": "2019",
+		"time": "2019",
 		"school": "Craft Academy, Sweden",
-		"website": "https://craftacademy.se/",
+		"website": "https://craftacademy.se",
 		"subject": "Full Stack Web Developer",
 		"description": "Ruby, Ruby on Rails, JavaScript, React, Test Driven Development, Behaviour Driven Development, Agile practices, and more."
 	},
 	{
 		"id": 2,
-		"dates": "2012 - 2014",
+		"time": "2012 - 2014",
 		"school": "Handelsakademin, Sweden",
-		"website": "https://handelsakademin.se/",
+		"link": "https://handelsakademin.se",
 		"subject": "E-business Managemnt",
 		"description": ""
 	},
 	{
 		"id": 3,
-		"dates": "2010-2011",
+		"time": "2010-2011",
 		"school": "sagbacksgymnasiet Huddinge Konvux, Sweden",
-		"website": "http://www.sagbacksgymnasiet.se/",
+		"website": "http://www.sagbacksgymnasiet.se",
 		"subject": "Hotel & Restaurant",
 		"description": "Chef"
 	},
 	{
 		"id": 4,
-		"dates": "2004 - 2005",
+		"time": "2004 - 2005 Escola Secundária Francisco Manyanga, Maputo, Mozambique" ,
 		"school": "Escola Secundária Francisco Manyanga, Maputo, Mozambique",
 		"subject": "Pre University Education",
 		"description": "Social Sciences and the Humanities"

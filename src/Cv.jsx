@@ -58,27 +58,27 @@ class Cv extends Component {
     }
 
   return (
-    <>
-        <div className="flex mb-4">  
-          <div className="w-3/4">
-            <h1>Education</h1>
+    <div className="content-wrapper">
+        <div className="content-wrapper">  
+          <div>
+            <h2>Education</h2>
           </div>
         </div>
 
-        <div className="">
+        <div >
           {educationList}
         </div>
 
-        <div className="flex mb-4">
-          <div className="w-3/4">
-            <h1>Work Experience</h1>
-          </div>
-
-          <div className="">
-            {workList}
+        <div className="content-wrapper">
+          <div>
+            <h2>Work Experience</h2>
           </div>
         </div>
-      </>
+
+          <div>
+            {workList}
+          </div>
+      </div>
     )
   }
 };

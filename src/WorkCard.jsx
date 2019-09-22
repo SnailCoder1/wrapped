@@ -5,8 +5,8 @@ const WorkCard = (props) => {
   return (
     <div style={{ minHeight: '120px' }}>
       <div key={work.id}>
-        {work.name}
-        {work.description}  
+      {work.name}
+      {work.description}  
       </div>
     </div>
   )
