@@ -10,7 +10,7 @@ const EducationCard = (props) => {
         <div>{education.name}</div>
       </div>
 
-      <div style={{ minHeight: '120px' }}>
+      {/* <div style={{ minHeight: '120px' }}>
           <div>{work.name}</div>
           <p>
               {work.description}
@@ -19,7 +19,7 @@ const EducationCard = (props) => {
 
       <div>
           <a href={work.link} target="_blank"><button>Link</button></a>
-      </div>
+      </div> */}
     </div>
   )
 }

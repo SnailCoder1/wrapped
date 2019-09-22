@@ -46,7 +46,7 @@ class Projects extends Component {
         </div>
 
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
-            {projectsList}
+          {projectsList}
         </div>
     </div>
     )

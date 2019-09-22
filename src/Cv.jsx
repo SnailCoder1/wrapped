@@ -1,19 +1,10 @@
 import React, { Component } from "react"
 import axios from "axios"
 import EducationCard from "./EducationCard"
-import WordCard from "./WorkCard"
+// import WordCard from "./WorkCard"
 import { UndrawDesigner } from 'react-undraw-illustrations';
 
-
-
 class Cv extends Component {
-  constructor (){
-    super();
-    this.state = {
-      education: [],
-      work: []
-    };
-  }
   componentDidMount() {
     axios.get('./src/data/education.json')
     .then(response => {
@@ -22,33 +13,40 @@ class Cv extends Component {
       })
     })
 
-    .then(
-      axios.get('./src/data/work.json')
-      .then(response => {this.setState({
-        work: response.data 
-      })
-    })
-    )
+    // .then(
+    //   axios.get('./src/data/work.json')
+    //   .then(response => {
+    //     this.setState({
+    //     work: response.data 
+    //   })
+    // })
+    // )
+  }
+
+  constructor (){
+    super();
+    this.state = {
+      education: [],
+      // work: [],
+    };
   }
 
   render() {
     const education = this.state.education
-    const work = this.state.work
-    let eduCast
-    let wook
+    // const work = this.state.work
+    let educationList 
+    // let skills
 
-    eduCast = education.map
 
-    if (cv.length > 0) {
-      cvList = cv.map(cv => {
+    if (education.length > 0) {
+      educationList = education.map(education => {
         return (
-          <div key={cv.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
-          <ProjectCard cv={cv} />
+          <div key={education.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+          <EducationCard education={education} />
       </div>
         )
       })
     }
-
 
   return (
     <div className="content-wrapper">
@@ -57,14 +55,14 @@ class Cv extends Component {
                 <UndrawDesigner />
             </div>
             <div className="w-3/4">
-                <h1>My Projects</h1>
+                <h1>Education</h1>
                 <p></p>
             </div>
 
         </div>
 
         <div className="flex flex-wrap -mx-1 lg:-mx-4">
-            {cvList}
+          {educationList}
         </div>
     </div>
     )
