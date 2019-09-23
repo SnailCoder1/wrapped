@@ -50,7 +50,7 @@ class Cv extends Component {
     if (work.length > 0) {
       workList = work.map(work => {
         return (
-          <div key={work.id} className="min-h-900 my-1 px-1 w-full md:w-1/2 lg:my-4 lg:px-4 lg:w-1/3">
+          <div key={work.id}>
             <WorkCard work={work} />
           </div>
         )
@@ -58,8 +58,8 @@ class Cv extends Component {
     }
 
   return (
-    <div className="content-wrapper">
-        <div>
+    <div className="px-4 pt-4 flex-1 overflow-y-scroll">
+        <div className="mb-12">
             <h2>Education</h2>
           </div>
 
@@ -70,7 +70,7 @@ class Cv extends Component {
       
 
     
-          <div>
+          <div className="mb-12">
             <h2>Work Experience</h2>
           </div>
 
