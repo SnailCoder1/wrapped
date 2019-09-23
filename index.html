@@ -15,12 +15,18 @@
 		</noscript>
 		<script src="dist/bundle.js"></script>
 
-		<form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" hidden>
+		<!-- <form name="contact" method="POST" netlify-honeypot="bot-field" data-netlify="true" hidden>
 			<input type="text" name="name" />
 			<input type="email" name="email" />
 			<textarea name="message"></textarea>
-			<!-- <button type="submit"></button> -->
-		</form>
+			<button type="submit"></button> -->
+
+
+			<form name="contact" netlify netlify-honeypot="bot-field" hidden>
+					<input type="text" name="name" />
+					<input type="email" name="email" />
+					<textarea name="message"></textarea>
+			</form>
 
 	</body>
 </html>
