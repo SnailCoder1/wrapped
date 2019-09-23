@@ -8,7 +8,7 @@ const EducationCard = (props) => {
         <div className="w-1/3">
 
 
-        <a href={education.website} target="_blank" className="no-underline text-grey-dark ">{education.school}</a>
+        <a href={education.website} target="_blank" className="no-underline text-grey-dark hover:text-blue">{education.school}</a>
         <p className="text-grey-dark mb-8">{education.time}</p>
         </div>
       </div>
