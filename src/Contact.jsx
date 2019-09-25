@@ -15,7 +15,7 @@ const Contact = () => {
               <input type="hidden" name="form-name" value="contact" />
               <input className="block w-full bg-white-200 text-gray-700 border border-gray py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" type="text" placeholder="Your name" name="name" required />
               <input className="appearance-none block w-full bg-white-200 text-gray-700 border border-gray py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" placeholder="Your email" type="email" name="email" required />
-              <textarea className="appearance-none block w-full bg-white-200 text-gray-700 border border-gray py-16 px-4 mb-3 leading-tight focus:outline-none focus:bg-white" placeholder="Your message" name="message" required />
+              <textarea className="appearance-none block w-full bg-white-200 text-gray-700 border border-gray py-16 px-4 mb-3 py-4 leading-tight focus:outline-none focus:bg-white" placeholder="Your message" name="message" required />
               <button className="appearance-none block w-full bg-white-200 text-gray-700 border border-indigo py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white hover:bg-indigo">Send your message</button>
             </div>
           </>
