@@ -1,14 +1,13 @@
 import React from "react"
 
-const TechStackCard = () => {
+const TechStackCard = (props) => {
+  let techstack = props.techstack
   return (
-  <div key={techstack.id} className="mb-12 text-grey-dark flex flex-wrap"> 
-    <div className="text-grey-dark text-base w-full border-grey-dark border-b mb-2 pb-1">{techstack.image} </div>
-      <div className="w-1/3">
-
-      <a href={techstack.link} target="_blank" className="no-underline text-grey-dark hover:text-blue">{}</a>
-      </div>
-    </div>  
+    <div key={techstack.id} className=""> 
+      <div>
+      <a href={techstack.website} target="_blank" className="">{techstack.logo}</a>
+    </div>
+    </div>
   )
 }
 

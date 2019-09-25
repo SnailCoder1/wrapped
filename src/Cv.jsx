@@ -22,7 +22,7 @@ class Cv extends Component {
     )
   }
 
-  constructor (){
+  constructor() {
     super();
     this.state = {
       education: [],
