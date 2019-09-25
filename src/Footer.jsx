@@ -1,10 +1,11 @@
 import React from "react"
+import TechStackCard from  "./TechStackCard"
 
 const Footer = () => {
   return (
     <div className="footer-wrapper">
       <div className="footer-content">
-        Made with React
+        {TechStackCard}
       </div>
     </div>
   )

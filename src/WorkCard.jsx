@@ -10,12 +10,6 @@ const WorkCard = (props) => {
         <div className="w-1/3">
         <a href={work.website} target="_blank" className="no-underline text-grey-dark hover:text-blue">{work.name}</a>
           <p className="text-grey-dark mb-8">{work.time}</p>
-
-        {/* <div className="w-2/3">
-          <div className="no-underline text-grey-dark "> 
-            {work.description}
-          </div>
-        </div> */}
       </div>
     </div>
   )
