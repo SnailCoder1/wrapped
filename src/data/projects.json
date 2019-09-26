@@ -4,18 +4,34 @@
       "name": "My First Website",
       "image": "http://www.4president.us/websites/2000/2000w/gore2000home.gif",
       "description": "This was my first project. The guy lost, but won the popular vote!",
-      "GitHub": "https://github.com/SnailCoder1/bmi_calculator_reactJs"
+      "GitHub": "https://github.com/SnailCoder1/bmi_calculator_reactJs",
+      "URL":""
+      
   },
   {
       "id": 2,
-      "name": "UI Design",
+      "name": "FizzBuzz",
       "image": "https://images.unsplash.com/photo-1522542550221-31fd19575a2d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "Designing user interfaces is fun. I want to learn more about that..."
+      "description": "Designing user interfaces is fun. I want to learn more about that...",
+      "GitHub":"https://github.com/SnailCoder1/fizzbuzz_js_BOA",
+      "URL":"https://fizzbuzz1.netlify.com/"
   },
   {
       "id": 3,
-      "name": "Mobile UX",
+      "name": "BMI Calculator",
       "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
-      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding."
+      "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
+      "GitHub":"https://github.com/SnailCoder1/bmi_calculator_reactJs",
+      "URL":"https://1bmi.netlify.com/"
+  },
+
+  {"id": 4,
+  "name": "RPS",
+  "image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
+  "description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
+  "GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
+  "URL":"https://1bmi.netlify.com/"
   }
+
+  
 ]
