@@ -3,13 +3,13 @@ import NetlifyForm from "react-netlify-form";
 
 const Contact = () => {
   return (
-    <NetlifyForm name="contact" method="POST">
+    <NetlifyForm clasname="text-center" name="contact" method="POST">
       {({ error, success }) => (
         <>
         
         {!success &&
           <>    
-            <h1 className="w-full md:w-1/2 px-3 mb-10 md:mb-3">Get in Touch</h1>
+            <h1 className="w-full text-center  md:w-1/2 px-3 mb-10 md:mb-3">Get in Touch</h1>
 
             <div className="w-full md:w-1/2 px-3 mb-6 md:mb-0">
               <input type="hidden" name="form-name" value="contact" />

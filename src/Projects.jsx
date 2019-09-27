@@ -40,7 +40,7 @@ class Projects extends Component {
             </div>
             <div className="w-3/4">
                 <h1>My Projects</h1>
-                <p>This is a selection of some of my projects I have been working on.</p>
+                <p>This is a selection of some of my projects I have been working on during the Bootcamp at <a href="https://www.craftacademy.se/english/" target="_blank">Craft Academy</a>.</p>
             </div>
 
         </div>
