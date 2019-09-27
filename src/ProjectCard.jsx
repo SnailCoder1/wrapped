@@ -14,11 +14,11 @@ const ProjectCard = (props) => {
       </div>
 
       <div className="flex items-center justify-between leading-none p-2 md:p-4">
-        <a href={project.GitHub} target="_blank"> <button className="bg-blue-darkest hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full">
+        <a href={project.GitHub} target="_blank"> <button className="bg-blue-darkest hover:bg-orange text-white text-xs py-1 px-2 rounded-full">
           Github
         </button></a>
 
-        <a href={project.URL} target="_blank"><button className="bg-blue-darkest hover:bg-blue-dark text-white text-xs py-1 px-2 rounded-full">
+        <a href={project.URL} target="_blank"><button className="bg-blue-darkest hover:bg-orange text-white text-xs py-1 px-2 rounded-full">
           Deployed website
         </button></a>
 
