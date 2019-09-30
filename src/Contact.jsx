@@ -3,7 +3,7 @@ import NetlifyForm from "react-netlify-form";
 
 const Contact = () => {
   return (
-    <NetlifyForm name="contact">
+    <NetlifyForm name="contact" method='post' data-netlify='true' data-netlify-honeypot="bot-field">
       {({ error, success }) => (
         <>
         

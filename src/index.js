@@ -18,9 +18,9 @@ const App = () => {
         <Header />
           <div className="content-wrapper">
             <Switch>
-              <Route exact path="/cv" component={Cv}></Route>
               <Route exact path="/about" component={About}></Route>
               <Route exact path="/projects" component={Projects}></Route>
+              <Route exact path="/cv" component={Cv}></Route>
               <Route exact path="/contact" component={Contact}></Route>
             </Switch>
           </div>
