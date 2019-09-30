@@ -18,10 +18,10 @@ This site was deployed using [Netlify](https://www.netlify.com/). You can visit 
 
 # Built With
 
-*[React](https://reactjs.org/) - A JavaScript library for building user interfaces.
-*[NPM](https://www.npmjs.com/) - A package manager that helps install or update third-party packages and dependencies.
-*[Webpack](https://webpack.js.org/) - A bundler that lets write modular code and bundle it together into small packages to optimize load time.
-*[Babel](https://babeljs.io/) - A compiler that lets write ES6 code and make sure the code works in older browsers.
+* [React](https://reactjs.org/) - A JavaScript library for building user interfaces.
+* [NPM](https://www.npmjs.com/) - A package manager that helps install or update third-party packages and dependencies.
+* [Webpack](https://webpack.js.org/) - A bundler that lets write modular code and bundle it together into small packages to optimize load time.
+* [Babel](https://babeljs.io/) - A compiler that lets write ES6 code and make sure the code works in older browsers.
 
 
 # License
