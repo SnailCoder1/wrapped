@@ -1,5 +1,7 @@
 import React from "react"
 import NetlifyForm from "react-netlify-form";
+import { UndrawMailSent } from 'react-undraw-illustrations';
+
 
 const Contact = () => {
   return (
@@ -24,7 +26,14 @@ const Contact = () => {
         }
         {success &&
           <>
-          <h1>Thank you for getting in touch! I will be back as soon as possible.</h1>
+          {/* <h1>Thank you for getting in touch! I will be back as soon as possible.</h1> */}
+          <h1 className="content-header">Thank you for your message!</h1>
+        
+                    <UndrawMailSent
+                        primaryColor='#019ebd'
+                        height= '200px'
+                        />
+                    </>
           </>
         }
         </>
