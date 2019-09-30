@@ -4,10 +4,10 @@ const About = () => {
 	return (
 
 	<div className="container mx-auto text-center" >
-		<div class="md:flex bg-white rounded-lg p-6 text-center">
+		<div class="md:flex bg-white rounded-lg p-10 text-center">
 
 			<div>
-				<img class="h-16 w-16 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-6" src="./src/img/moi2.jpg"></img>
+				<img class="h-16 w-16 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-20" src="./src/img/moi2.jpg"></img>
 			</div>
 			
 
