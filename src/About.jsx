@@ -2,6 +2,8 @@ import React from "react"
 
 const About = () => {
 	return (
+
+	<div className="container mx-auto text-center" >
 		<div class="md:flex bg-white rounded-lg p-6 text-center">
 
 			<div>
@@ -23,6 +25,8 @@ const About = () => {
 					<p>Capoeira is one of passion. </p>
 				</div>
 			</div>
+		</div>
+
 		</div>
 
   )
