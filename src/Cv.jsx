@@ -1,11 +1,11 @@
 import React, { Component } from "react"
 import axios from "axios"
 import EducationCard from "./EducationCard"
-import WorkCard from "./WorkCard"
+import WorkCard from "./WorkCard";
 
 class Cv extends Component {
   componentDidMount() {
-    axios.get('./src/data/education.json')
+    axios.get("./src/data/education.json")
     .then(response => {
       this.setState({
         education: response.data
@@ -13,7 +13,7 @@ class Cv extends Component {
     })
 
     .then(
-      axios.get('./src/data/work.json')
+      axios.get("./src/data/work.json")
       .then(response => {
         this.setState({
           work: response.data 
@@ -33,8 +33,8 @@ class Cv extends Component {
   render() {
     const education = this.state.education
     const work = this.state.work
-    let educationList 
-    let workList
+    let educationList;
+    let workList;
 
 
     if (education.length > 0) {
@@ -80,9 +80,9 @@ class Cv extends Component {
 
     </div>
       
-    )
+    );
   }
-};
+}
 
 
 

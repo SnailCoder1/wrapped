@@ -1,5 +1,5 @@
 import React from "react"
-import NetlifyForm from "react-netlify-form";
+import NetlifyForm from "react-netlify-form"
 import { UndrawMailSent } from 'react-undraw-illustrations';
 
 

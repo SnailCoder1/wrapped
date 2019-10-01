@@ -20,7 +20,7 @@ class Projects extends Component {
 
   render() {
     const projects = this.state.projects
-    let projectsList 
+    let projectsList;
 
   if (projects.length > 0) {
     projectsList = projects.map(project => {
@@ -51,6 +51,6 @@ class Projects extends Component {
     </div>
     )
   }
-};
+}
 
 export default Projects

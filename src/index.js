@@ -2,13 +2,13 @@ import React from "react"
 import ReactDOM from "react-dom"
 import { BrowserRouter } from "react-router-dom"
 import { Switch, Route } from "react-router-dom"
-import Header from "./Header"
-import Footer from "./Footer"
-import About from "./About"
-import Projects from "./Projects"
-import Contact from "./Contact"
-import Cv from "./Cv"
-import "./css/tailwind.css"
+import Header from "./Header";
+import Footer from "./Footer";
+import About from "./About";
+import Projects from "./Projects";
+import Contact from "./Contact";
+import Cv from "./Cv";
+import "./css/tailwind.css";
 
 
 const App = () => {
