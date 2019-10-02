@@ -55,31 +55,24 @@ class Cv extends Component {
         )
       })
     }
-
+    
   return (
     <div className="px-4 pt-4 flex-1 overflow-y-scroll">
       <div className="mb-12">
         <h2>Work Experience</h2>
       </div>
-
       <div >
         {workList}
       </div>
-
       <div className="mb-12">
         <h2>Education</h2>
       </div>
-
       <div>
       { educationList}
       </div>
-      
-      </div>
-      
+    </div>
     );
   }
 }
-
-
 
 export default Cv

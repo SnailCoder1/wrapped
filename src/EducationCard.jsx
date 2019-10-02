@@ -12,4 +12,5 @@ const EducationCard = (props) => {
       </div>
   )
 }
+
 export default EducationCard 

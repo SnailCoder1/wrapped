@@ -3,8 +3,7 @@ import { NavLink, Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <nav className="header"> 
-
+    <nav className="header">
       <h1 className="header-title">
         <Link className="text-white hover:text-grey no-underline" to='/'>Boa Matule</Link>
       </h1>
@@ -26,9 +25,6 @@ const Header = () => {
 
       {/* </label> */}
     </nav>
-
-
-
   )    
 }
 
