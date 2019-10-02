@@ -30,15 +30,15 @@
 	"image": "https://codecreated.com/wp-content/uploads/2017/09/Rock-Paper-Scissors-1280x640.jpg",
 	"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
 	"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
-	"URL":"https://1bmi.netlify.com/"
+	"URL":"https://1rps.netlify.com/"
 	},
 
 	{"id": 5,
 	"name": "Library Challenge",
 	"image": "https://media.mnn.com/assets/images/2014/04/trinity%20college%20library.jpg.638x0_q80_crop-smart.jpg",
 	"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
-	"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
-	"URL":"https://1bmi.netlify.com/"
+	"GitHub":"https://github.com/SnailCoder1/library-challenge",
+	"URL":""
 	},
 
 	{"id": 6,
@@ -61,15 +61,15 @@
 	"name": "Cooper Calculator",
 	"image": "https://images.unsplash.com/photo-1534237886190-ced735ca4b73?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80",
 	"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
-	"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
-	"URL":"https://1bmi.netlify.com/"
+	"GitHub":"https://github.com/SnailCoder1/Cooper_Client",
+	"URL":"https://1cooper.netlify.com/"
 	},
 
 	{"id": 8,
 	"name": "Glocal News",
 	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyZ6Pgn9wfJ0jRl44L1Jmj_YwXaDVA6n7NZqhEzgBVe7ecU3qr",
 	"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
-	"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
+	"GitHub":"",
 	"URL":"https://glocal-news.netlify.com/news"
 	},
 
@@ -77,15 +77,15 @@
 	"name": "ATM Challenge",
 	"image": "https://www.thefactsite.com/wp-content/uploads/2013/02/100-technology-facts.jpg",
 	"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
-	"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
-	"URL":"https://1bmi.netlify.com/"
+	"GitHub":"https://github.com/SnailCoder1/atm_challenge-1",
+	"URL":""
 	},
 
 	{"id": 4,
-			"name": "Cat-BnB",
-			"image": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/06/acoustic-kitty-operation.jpg",
-			"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
-			"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
-			"URL":"https://kattbnb.herokuapp.com/"
+	"name": "Cat-BnB",
+	"image": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/06/acoustic-kitty-operation.jpg",
+	"description": "I like to design for the mobile platform. The challenges to build UI's for smartphones is challenging but extremely rewarding.",
+	"GitHub":"",
+	"URL":"https://kattbnb.herokuapp.com/"
 	}
 ]

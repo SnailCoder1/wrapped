@@ -25,27 +25,16 @@ class Cv extends Component {
   constructor() {
     super();
     this.state = {
-      education: [],
       work: [],
+      education: [],
     };
   }
 
   render() {
-    const education = this.state.education
     const work = this.state.work
+    const education = this.state.education
     let educationList;
     let workList;
-
-
-    if (education.length > 0) {
-      educationList = education.map(education => {
-        return (
-          <div key={education.id}>
-            <EducationCard education={education} />
-          </div>
-        )
-      })
-    }
 
     if (work.length > 0) {
       workList = work.map(work => {
@@ -57,28 +46,35 @@ class Cv extends Component {
       })
     }
 
+    if (education.length > 0) {
+      educationList = education.map(education => {
+        return (
+          <div key={education.id}>
+            <EducationCard education={education} />
+          </div>
+        )
+      })
+    }
+
   return (
     <div className="px-4 pt-4 flex-1 overflow-y-scroll">
-        <div className="mb-12">
-            <h2>Education</h2>
-          </div>
+      <div className="mb-12">
+        <h2>Work Experience</h2>
+      </div>
 
-        <div >
-          {educationList}
-        </div>
+      <div >
+        {workList}
+      </div>
 
+      <div className="mb-12">
+        <h2>Education</h2>
+      </div>
+
+      <div>
+      { educationList}
+      </div>
       
-
-    
-          <div className="mb-12">
-            <h2>Work Experience</h2>
-          </div>
-
-          <div>
-            {workList}
-          </div>
-
-    </div>
+      </div>
       
     );
   }

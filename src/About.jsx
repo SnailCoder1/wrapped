@@ -12,16 +12,19 @@ const About = () => {
 			
 
 			<div class="text-grey-dark text-left lg:w-1/2 md:w-1/2">
-					<div><h2 class="">Junior Fullstack Software Developer</h2></div>
+					<div><h2 class="">Junior Full Stack Software Developer</h2></div>
 			
 			<br></br>
 				<br></br>
 				<div>
-					<p>Boa was born and raised in Mozambique. Currently based in Oslo after almost 7 years in Sweden.</p>     
+					<p>Boa was born and raised in Mozambique. Currently based in Oslo after almost 7 years in Sweden.</p>   
+					<br></br>
 					<p>I have been fortunate enough to explore the world and get a chance to meet diferent souls with amazing backgrounds. It has allowed myself to easily thrives among different enviroments.</p>
-					<p>Ambitious. An eternal learner. </p>
-					<p>I am Former Canada World Youth partipant.</p>
-					<p>When i am not exploring the world, i do spend loads of time in the kitchen. </p>
+					<br></br>
+					<p>Ambitions and eternal learner. If i am not working, you will find me in the kitchen. Salt and pepper saves lives.</p>
+					{/* <p>I am Former Canada World Youth partipant.</p> */}
+					<br></br>
+					{/* <p>When i am not exploring the world, i do spend loads of time in the kitchen. </p> */}
 					<p>Capoeira is one of passion. </p>
 				</div>
 			</div>
