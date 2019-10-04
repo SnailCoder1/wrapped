@@ -6,7 +6,7 @@ const About = () => {
 			<div class="md:flex bg-white rounded-lg p-10 text-center">
 
 				<div>
-					<img class="h-16 w-16 md:h-48 md:w-48 rounded-full mx-auto md:mx-0 md:mr-20" src="./src/img/moi2.jpg"></img>
+					<img class="h-16 w-16 md:h-48 md:w-48 rounded-full overflow-hidden border-2 border-gray-600 focus:outline-none focus:border-white mx-auto md:mx-0 md:mr-20" src="./src/img/moi2.jpg"></img>
 				</div>
 
 				<div class="text-grey-dark text-left lg:w-1/2 md:w-1/2">
