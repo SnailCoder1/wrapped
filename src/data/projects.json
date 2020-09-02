@@ -1,0 +1,99 @@
+[
+	{
+	"id": 1,
+	"name": "My First Website",
+	"image": "https://scontent.fosl4-2.fna.fbcdn.net/v/t1.0-9/1620446_10152206587921672_2025083895_n.jpg?_nc_cat=109&_nc_oc=AQm9L0rm3QMFuVkg9WJmjVE3c_vW1mydsJQxGanxgpR5_OomIYMQF_vtcLx63FV66l0&_nc_ht=scontent.fosl4-2.fna&oh=34812760c5d9862adab0342b248ba76d&oe=5DF7AB17",
+	"description": "Just a basic website build in HTML and CSS.",
+	"GitHub": "https://github.com/SnailCoder1/bmi_calculator_reactJs",
+	"URL":"https://boafirstwebsite.netlify.com/"
+
+	},
+	{
+	"id": 2,
+	"name": "FizzBuzz Challenge",
+	"image": "https://miro.medium.com/proxy/1*lPfdDAivK_QNzqknqLCP8w.png",
+	"description": "FizzBuzz game built in Javascrip.",
+	"GitHub":"https://github.com/SnailCoder1/fizzbuzz_js_BOA",
+	"URL":"https://fizzbuzz1.netlify.com/"
+	},
+	{
+	"id": 3,
+	"name": "BMI Calculator",
+	"image": "https://www.designnominees.com/application/upload/Apps/2017/01/bmi-calculator-weight-loss-169.png",
+	"description": "Build in React and Acceptance testing using Cypress. Styled using Semantic UI for React.",
+	"GitHub":"https://github.com/SnailCoder1/bmi_calculator_reactJs",
+	"URL":"https://1bmi.netlify.com/"
+	},
+
+	{"id": 4,
+	"name": "Rock Paper Scissors Challenge",
+	"image": "https://codecreated.com/wp-content/uploads/2017/09/Rock-Paper-Scissors-1280x640.jpg",
+	"description": "This game was built using Javascrip.",
+	"GitHub":"https://github.com/SnailCoder1/RPS_Challenge",
+	"URL":"https://1rps.netlify.com/"
+	},
+
+	{"id": 5,
+	"name": "Library Challenge",
+	"image": "https://media.mnn.com/assets/images/2014/04/trinity%20college%20library.jpg.638x0_q80_crop-smart.jpg",
+	"description": "",
+	"GitHub":"https://github.com/SnailCoder1/library-challenge",
+	"URL":""
+	},
+
+	{"id": 6,
+	"name": "Address Book Challenge",
+	"image": "http://4.bp.blogspot.com/-DTvRwTuNpsE/UtQUcqeK8qI/AAAAAAAAFls/4HujL-m-qZ4/s1600/Fotolia_42428039_Subscription_Monthly_L.jpg",
+	"description": "A simple address book that stores the information in your computer's local storage. Built in JavaScript and styled using Tailwind CSS.",
+	"GitHub":"https://github.com/SnailCoder1/adressbook_Challenge/tree/01-project-setup",
+	"URL":"https://addressbookit.netlify.com/"
+	},
+
+	{"id": 7,
+	"name": "My First Rails App",
+	"image": "https://dg0ddngxdz549.cloudfront.net/images/cached/images/remote/http_s3.amazonaws.com/ns.images/newspring/collection/series_kidspring/OTR2_Hero_2x1_(1)_1700_850_90_c1.jpg",
+	"description": "A simple blog built on Rails. CRUD functionality. User and Admin authentication.",
+	"GitHub":"https://github.com/SnailCoder1/rails_bdd",
+	"URL":"https://rails-demo-april19.herokuapp.com"
+	},
+
+	{"id": 8,
+	"name": "Cooper Calculator",
+	"image": "https://inm-baobab-prod-eu-west-1.s3.amazonaws.com/public/inm/media/file/1/1341297/1342270539/image/1277750496.jpg",
+	"description": "The 12 min Cooper test. Back-end API built on rails and hosted on Heroku and styled using Semantic UI for React.",
+	"GitHub":"https://github.com/SnailCoder1/Cooper_Client",
+	"URL":"https://1cooper.netlify.com/"
+	},
+
+	{"id": 9,
+	"name": "Glocal News",
+	"image": "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyZ6Pgn9wfJ0jRl44L1Jmj_YwXaDVA6n7NZqhEzgBVe7ecU3qr",
+	"description": "News for everyone, by anyone, from everywhere! A peer-to-peer review online newspaper. Pair programmed with all my fellow students.",
+	"GitHub":"",
+	"URL":"https://glocal-news.netlify.com/news"
+	},
+
+	{"id": 10,
+	"name": "ATM Challenge",
+	"image": "https://www.thefactsite.com/wp-content/uploads/2013/02/100-technology-facts.jpg",
+	"description": "A simple prototype of an Automatic Teller Machine (ATM) system with limited functionality built in Ruby program and RSpec as a testing framework.",
+	"GitHub":"https://github.com/SnailCoder1/atm_challenge-1",
+	"URL":""
+	},
+
+	{"id": 11,
+	"name": "Cat-BnB",
+	"image": "https://allthatsinteresting.com/wordpress/wp-content/uploads/2018/06/acoustic-kitty-operation.jpg",
+	"description": "Getting your cat the attention it deserves! An AirBNB for cats. Pair programmed with all my fellow students. 75% test coverage. Used Semaphore for CI.",
+	"GitHub":"",
+	"URL":"https://kattbnb.herokuapp.com/"
+	},
+
+	{"id": 12,
+		"name": "Acceptance-Unit Test Cycle",
+		"image": "https://d2mug8yhikhiqv.cloudfront.net/wp-content/uploads/2012/05/23054454/Screen-Shot-2012-05-18-at-4.59.24-PM-1.png",
+		"description": "An Employee List System built in React following the concept of Acceptance-Unit Test Cycle.",
+		"GitHub":"https://github.com/SnailCoder1/Acceptance-Unit-Test-Cycle-in-React",
+		"URL":"https://aut-in-react.netlify.com/"
+		}
+]

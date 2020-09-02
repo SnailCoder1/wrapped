@@ -1,1 +1,9 @@
+<<<<<<< HEAD
 node_modules
+=======
+node_modules/
+.DS_Store
+.vscode
+dist
+src/css/tailwind.css
+>>>>>>> c092d3747ad5ad9f5a4e746e2942135abbc78a18

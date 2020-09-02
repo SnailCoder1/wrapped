@@ -1,0 +1,45 @@
+[
+  {
+  "id": 1,
+  "name": "kolonial.AS",
+  "time": "02/2016 - 03/2019",
+  "website": "https://kolonial.no/",
+  "title": "Wherehouse Operator" 
+  },
+
+  {
+  "id": 2,
+  "name": "Postenhallen AS",
+  "time": "2016 - 2017",
+  "website": "http://www.posthallen-restaurant.no/",
+  "title": "Chef" 
+  },
+  {
+  "id": 3,
+  "name": "Okamia fashion AB",
+  "time": "2013 - 2014",
+  "website": "",
+  "title": "E-business Manager" 
+  },
+  {
+  "id": 4,
+  "name": "Electricidade de Moçambique, Mozambique",
+  "time": "04/2007 - 09/2008",
+  "website": "https://www.edm.co.mz/",
+  "title": "Commercial Assistance & Call Center Operator" 
+  },
+  {
+  "id": 5,
+  "name": "Owjiwarongo Municipality, Namibia",
+  "time": "09/2006 - 02/2007",
+  "website": "http://www.otjozondjuparc.gov.na/",
+  "title": "Small Business customer Relations" 
+  },
+  {
+  "id": 6,
+  "name": "Power Rivel Visitor center, BC, Canada",
+  "time": "09/2006 - 12/2006",
+  "website": "https://powellriver.info/",
+  "title": "Customer Public Relations" 
+  }
+]
